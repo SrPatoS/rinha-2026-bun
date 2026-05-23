@@ -287,7 +287,7 @@ Bun.serve({
       const payload = await request.json();
       const score = fraudScore(references, vectorize(payload));
       return Response.json({
-        approved: score < 0.4,
+        approved: score < 0.6,
         fraud_score: Math.round(score * 10) / 10,
       });
     } catch {
