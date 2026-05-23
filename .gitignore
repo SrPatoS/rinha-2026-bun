@@ -1,6 +1,9 @@
 node_modules/
 build/
 dist/
+resources/references.bin
+resources/references.json
+resources/references.json.gz
 .env
 .env.*
 *.log

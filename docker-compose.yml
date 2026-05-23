@@ -4,6 +4,9 @@ services:
     hostname: api1
     environment:
       PORT: "8080"
+      MAX_REFERENCES: "0"
+      CANDIDATE_LIMIT: "125"
+      REFERENCES_PATH: /app/resources/references.bin
     deploy:
       resources:
         limits:
@@ -15,6 +18,9 @@ services:
     hostname: api2
     environment:
       PORT: "8080"
+      MAX_REFERENCES: "0"
+      CANDIDATE_LIMIT: "125"
+      REFERENCES_PATH: /app/resources/references.bin
     deploy:
       resources:
         limits:

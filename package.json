@@ -1,0 +1,8 @@
+{
+  "name": "rinha-2026-bun",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.js"
+  },
+  "dependencies": {}
+}
