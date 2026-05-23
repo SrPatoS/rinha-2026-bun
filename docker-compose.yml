@@ -1,6 +1,6 @@
 services:
   api1:
-    image: srpatos/rinha-2026-bun:latest
+    image: srvini/rinha-2026-bun:latest
     hostname: api1
     environment:
       PORT: "8080"
@@ -14,7 +14,7 @@ services:
           memory: "150MB"
 
   api2:
-    image: srpatos/rinha-2026-bun:latest
+    image: srvini/rinha-2026-bun:latest
     hostname: api2
     environment:
       PORT: "8080"
